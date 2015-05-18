@@ -766,7 +766,7 @@ static BOOL __cx_statsu_prefersStatusBarHidden;
     _containerView.alpha = 0;
     _containerView.transform = CGAffineTransformMakeScale(1.2, 1.2);
 
-    _blurView.alpha = 0.9;
+    _blurView.alpha = 0.0;
     _blurView.transform = CGAffineTransformMakeScale(1.2, 1.2);
 
     [UIView animateWithDuration:0.2
