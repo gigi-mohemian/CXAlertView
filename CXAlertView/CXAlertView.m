@@ -638,7 +638,7 @@ static BOOL __cx_statsu_prefersStatusBarHidden;
 
     if (_contentView) {
 
-        if (CGRectGetWidth(_contentView.frame) < self.containerWidth) {
+        if (CGRectGetWidth(_contentView.frame) > self.containerWidth) {
             CGRect frame = _contentView.frame;
             frame.origin.x = (self.containerWidth - CGRectGetWidth(_contentView.frame))/2;
             _contentView.frame = frame;
