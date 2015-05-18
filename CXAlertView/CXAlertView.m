@@ -769,7 +769,7 @@ static BOOL __cx_statsu_prefersStatusBarHidden;
     _blurView.alpha = 0.9;
     _blurView.transform = CGAffineTransformMakeScale(1.2, 1.2);
 
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:0.2
                      animations:^{
                          _containerView.alpha = 1.;
                          _containerView.transform = CGAffineTransformMakeScale(1.0,1.0);
@@ -787,12 +787,12 @@ static BOOL __cx_statsu_prefersStatusBarHidden;
 
 - (void)transitionOutCompletion:(void(^)(void))completion
 {
-    [UIView animateWithDuration:0.25
+    [UIView animateWithDuration:0.2
                      animations:^{
                          _containerView.alpha = 0;
                          _containerView.transform = CGAffineTransformMakeScale(0.9,0.9);
 
-                         _blurView.alpha = 0.9;
+                         _blurView.alpha = 0.0;
                          _blurView.transform = CGAffineTransformMakeScale(0.9,0.9);
                      }
                      completion:^(BOOL finished) {
