@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CXAlertView"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "Custom alert-view which allow you to add view as main content."
 
   s.description  = <<-DESC
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ChrisXu1221/CXAlertView.git", :tag => "1.1.0" }
+  s.source       = { :git => "https://github.com/gigi-mohemian/CXAlertView", :tag => "1.1.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
